@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OAuth Redirect</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <p>Redirecting...</p>
+  <script>
+    // Parse query string
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    // Construct deep link into app. Adjust scheme/path as your app expects.
+    const redirectTo = `myapp://oauth-callback?code=${encodeURIComponent(code)}`;
+
+    // Attempt to open the app
+    window.location.href = redirectTo;
+
+    // Fallback message if app isn't installed
+    setTimeout(() => {
+      document.body.innerHTML = '<p>If you are not redirected, please open the app manually.</p>';
+    }, 1000);
+  </script>
+</body>
+</html>
