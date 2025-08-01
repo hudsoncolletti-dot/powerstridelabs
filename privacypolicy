@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Policy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: [Aug 1, 2025]</p>
+
+  <h2>Overview</h2>
+  <p>This app (“we”, “us”) integrates with Whoop via its Developer API to provide adaptive hybrid training insights. This Privacy Policy explains what data we collect, how it's used, and your rights.</p>
+
+  <h2>Data Collected from Whoop</h2>
+  <p>With your explicit OAuth authorization, we retrieve summary-level data from Whoop, including recovery scores, sleep summaries, strain/workout summaries, heart rate metrics (e.g., resting heart rate, HRV), and workout metadata. We do not collect raw sensor streams.</p>
+
+  <h2>Use of Data</h2>
+  <p>Data is used to power the adaptive training scheduler, fatigue insights, composite metrics (e.g., RunLift Index), and personalized experiment feedback. We do not sell your data. Aggregated or anonymized insights may be used internally to improve the experience.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>Whoop is a third-party data provider; accessing your Whoop data requires your explicit consent via OAuth. We may also integrate analytics or AI services—these will be disclosed in expanded versions of this policy.</p>
+
+  <h2>Security</h2>
+  <p>We take reasonable measures to protect your data, including secure storage (e.g., using Keychain for tokens) and encrypted transmission (HTTPS).</p>
+
+  <h2>Your Rights</h2>
+  <p>You can revoke Whoop access at any time via the Whoop dashboard and delete any locally stored data via the app’s settings.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions, email: [hudsoncolletti@gmail.com]</p>
+</body>
+</html>
